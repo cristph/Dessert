@@ -1,5 +1,5 @@
 # Dessert
-a java web project with regard to Dessert Sale(OLTP) and ESS(OLAP)</br>
+a java web project with regard to  Dessert Sale(OLTP)  &  ESS(OLAP)</br>
 which features **DataWarehouse** &amp; **DataMining**
 
 <h3>Data Warehouse</h3>

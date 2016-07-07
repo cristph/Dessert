@@ -6,8 +6,8 @@ buid with database —— **infobright ICE**</br>
 OLAP engine —— **Mondrian**
 OLAP presentation —— **Wijmo**
 
-<h3>Data Mining</br>
+<h3>Data Mining</h3>
 work with data mining engine —— **Weka**
 
-<br>Frame</br>
+<h3>Frame</h3>
 **Spring + Spring MVC + Hibernate + Shrio**

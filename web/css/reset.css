@@ -1,0 +1,46 @@
+body{
+    font-family: Lato,"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif;!important;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+h1, .h1 {
+    font-size: 28px;
+}
+
+h3,.h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:checked{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration:none;
+}
+
+a:active{
+    text-decoration:none;
+}
+
+body.modal-open {
+    padding-right: 0 !important;
+}
+
+.form-control[disabled] {
+    cursor: default!important;
+}
+
+/*.wj-flexgrid {*/
+    /*max-height: 600px!important;*/
+/*}*/

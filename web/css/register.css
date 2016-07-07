@@ -1,0 +1,72 @@
+.outer-wrapper{
+    background-image: url("../images/sky.jpg");
+    background-size: cover;
+    min-height: 900px;
+}
+
+.inner-wrapper{
+    padding-top: 100px;
+    max-width: 850px;
+}
+
+.form-title{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+
+    padding-bottom: 10px;
+    border-bottom: solid 2px #fff;
+}
+
+.form-control{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.register-left{
+    background-image: url("../images/register.png");
+    background-size: cover;
+    min-height: 700px;
+}
+
+.register-right{
+    background-color: rgba(102,102,102,0.3);
+    min-height: 700px;
+    color: white;
+}
+
+.form-group{
+    margin-top: 30px;
+}
+
+.form-group>label{
+    margin-left: 10%;
+}
+
+.login-btn{
+    margin-top: 30px;
+    background-color: #9966FF;
+    margin-left: 10%;
+    width: 80% !important;
+}
+
+.form-footer{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.validation{
+    display: inline;
+    width: 45%;
+    margin-right: 6%;
+}
+
+.change-valid{
+    color: white;
+    font-weight: bold;
+}
+
+.change-valid:hover{
+    text-decoration: none;
+    color: red;
+}

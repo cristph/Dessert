@@ -1,0 +1,31 @@
+.footer {
+    background: linear-gradient(135deg, #32d1ac 0%, #4a90e2 100%);
+    padding: 40px 0;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+}
+
+.footer a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.footer small {
+    opacity: 0.6;
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer small i {
+    font-size: 10px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,19 @@
+.form-wrapper{
+    padding-left: 6%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.form-line{
+    padding-bottom: 10px;
+}
+
+.from-input{
+    width: 50%;
+}
+
+.well-cus{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schema name="tezz">
+    <Cube name="Sales">
+        <!-- 事实表(fact table) -->
+        <Table name="sale" />
+        <!-- 客户维 -->
+        <Dimension name="customer" foreignKey="cusId">
+            <Hierarchy hasAll="true" allMemberName="allsex" primaryKey="cusId">
+                <Table name="Customer"></Table>
+                <Level name="gender" column="gender"></Level>
+            </Hierarchy>
+        </Dimension>
+        <!-- 产品类别维 -->
+        <Dimension name="product" foreignKey="proId">
+            <Hierarchy hasAll="true" allMemberName="allproduct" primaryKey="proId" primaryKeyTable="product">
+                <join leftKey="proTypeId" rightKey="proTypeId">
+                    <Table name="product" />
+                    <Table name="producttype"></Table>
+                </join>
+                <Level name="proTypeId" column="proTypeId"
+                       nameColumn="proTypeName" uniqueMembers="true" table="producttype" />
+                <Level name="proId" column="proId" nameColumn="proName"
+                       uniqueMembers="true" table="product" />
+            </Hierarchy>
+        </Dimension>
+        <Measure name="num" column="number" aggregator="sum" datatype="Numeric" />
+        <Measure name="tsalenum" aggregator="sum" formatString="￥#,##0.00">
+            <!-- unitPrice*number所得值的列 -->
+            <MeasureExpression>
+                <SQL dialect="generic">(unitPrice*number)</SQL>
+            </MeasureExpression>
+        </Measure>
+        <CalculatedMember name="avgprice" dimension="Measures">
+            <Formula>[Measures].[tsalenum] / [Measures].[num]</Formula>
+            <CalculatedMemberProperty name="FORMAT_STRING" value="￥#,##0.00" />
+        </CalculatedMember>
+    </Cube>
+</Schema>

@@ -1,0 +1,130 @@
+.home {
+    background: linear-gradient(135deg, #32d1ac 0%, #4a90e2 100%);
+    padding: 30px 0 34px;
+    margin-bottom: 40px;
+}
+
+.home .home-links {
+    text-align: right;
+    padding-top: 5px;
+}
+
+.home .home-links a {
+    color: #fff;
+    opacity: 0.75;
+    padding: 9px 16px;
+    border-radius: 4px;
+    transition: all 0.1s linear;
+    font-size: 15px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+
+.home .home-register {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    opacity: 1 !important;
+}
+
+.home h1 {
+    color: #fff;
+    margin-top: 130px;
+    font-size: 40px;
+}
+
+.home h2 {
+    opacity: 0.8;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.join-btn {
+    color: #fff;
+    background-color: #32d1ac;
+    border-color: #32d1ac;
+}
+
+.join-btn :hover{
+    color: #fff;
+    background-color: #32d1ac;
+    border-color: #32d1ac;
+}
+
+.home .img-bottom {
+    margin-top: 125px;
+    max-width: 100%;
+    height: auto;
+}
+
+.home-details {
+    padding-bottom: 60px;
+}
+
+.home-details h3 {
+    padding: 20px;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
+
+.home-details .feature {
+    padding: 20px;
+}
+
+.home-details .feature img {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.home-example {
+    background: linear-gradient(135deg, #32d1ac 0%, #4a90e2 100%);
+    padding: 60px 0 85px;
+    text-align: center;
+}
+
+.home-example img {
+    border-radius: 4px;
+}
+
+.home-example h3 {
+    color: #fff;
+    margin: 30px 0;
+    opacity: 0.85;
+    font-size: 18px;
+}
+
+.footer {
+    background: linear-gradient(135deg, #32d1ac 0%, #4a90e2 100%);
+    padding: 40px 0;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.footer a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.footer small {
+    opacity: 0.6;
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer small i {
+    font-size: 10px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}

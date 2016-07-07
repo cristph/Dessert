@@ -1,0 +1,97 @@
+.title-box{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.white-box{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.due {
+    color: #999;
+    min-height: 50px;
+}
+ .point,  .due {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.due {
+    text-align: right;
+    padding: 0;
+}
+ .due .realPay {
+    margin-top: -6px;
+}
+
+ .due .realPay .bd {
+    color: #c00;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: tahoma;
+}
+
+.tc-rmb {
+    font-family: arial;
+}
+
+.due .realPay strong {
+    letter-spacing: 1px;
+    margin-left: 4px;
+}
+
+b {
+    font-weight: bold;
+}
+
+.due .obtainedPoint {
+    display: inline;
+    margin-left: 10px;
+}
+
+.due .obtainedPoint .obtain {
+    color: #404040;
+}
+
+.due .obtainedPoint .obtain strong {
+    font-family: tahoma;
+    font-size: 14px;
+    margin-right: 2px;
+    font-weight: 400;
+}
+
+.float{
+    margin-left:auto;
+    margin-right:2px;
+    width: 100%;
+}
+
+.go-wrapper {
+    display: inline-block;
+
+    width: 100%;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.go-wrapper >a:hover,.go-wrapper >a:checked{
+    color: #fff;
+    text-decoration: none;
+}
+
+.go-btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 182px;
+    height: 37px;
+    line-height: 37px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background: #b10000;
+    color: #fff;
+}

@@ -1,0 +1,176 @@
+.tb-detail-hd h1 {
+    margin-top: 0;
+    padding-bottom: .2em;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "microsoft yahei";
+}
+
+.tb-detail-hd .newp {
+    font-size: 14px;
+    color: #fff;
+    font-family: "microsoft yahei";
+}
+
+.tm-promo-price {
+    line-height: 24px;
+    font-size: 12px;
+    position: relative;
+    top: 15px;
+}
+
+.tb-metatit {
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    float: left;
+    margin: 3px 0 0 8px;
+}
+
+.tb-metatit-amount{
+    color: #fff;
+    font-size: 18px;
+    display: inline;
+    position: relative;
+    left: 8px;
+    top: 3px;
+}
+
+.tm-yen {
+    vertical-align: middle;
+    color: #c40000;
+    font-size: 18px;
+    font-family: Arial;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+
+
+    display: inline-block;
+    margin-bottom: -6px;
+
+    margin-left: 30px;
+
+}
+
+.tm-price {
+    vertical-align: middle;
+    font-size: 30px;
+    color: #c40000;
+    font-weight: bolder;
+    font-family: Arial;
+    -webkit-font-smoothing: antialiased;
+}
+
+#detail .tb-metatit {
+    text-align: left;
+    float: left;
+    width: 66px;
+}
+
+.tb-amount .tb-metatit {
+    margin-top: 6px;
+}
+.tb-key .tb-metatit {
+    color: #fff;
+}
+
+.tb-amount div {
+    height: 35px;
+    line-height: 31px;
+    color: #fff;
+    display: inline;
+}
+
+.tb-amount-widget .mui-amount-input {
+    vertical-align: middle;
+}
+.tb-text {
+    color: black;
+    font-size: 12px;
+    margin: 0;
+    padding: 3px 2px 0 3px;
+    height: 26px;
+    border: 1px solid #fff;
+    width: 36px;
+    line-height: 26px;
+    background-position: -406px -41px;
+}
+
+.tb-amount-widget .mui-amount-btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tb-amount-widget .mui-amount-increase {
+    width: 16px;
+    height: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #fff;
+    display: block;
+    font-family: tm-detail-font;
+    line-height: 12px;
+    font-size: 16px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.tb-amount-widget .mui-amount-decrease {
+    width: 16px;
+    height: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #fff;
+    display: block;
+    font-family: tm-detail-font;
+    line-height: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.tb-amount-widget .mui-amount-unit {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+#J_Amount{
+    position: relative;
+    left: 30px;
+}
+
+.tm-clear {
+    margin-top: 35px;
+}
+
+.tb-btn-basket a {
+    background-color: #c40000;
+    border: 1px solid #c40000;
+    color: #fff;
+}
+
+ .tb-btn-sku a{
+    margin-right: 0;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #ffeded;
+    border: 1px solid #c40000;
+    color: #c40000;
+    font-family: 'Microsoft Yahei';
+    font-size: 16px;
+    text-align: center;
+}
+a,a:checked,a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+.tb-btn-basket {
+    position: relative;
+    top: 20px;
+}

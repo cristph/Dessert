@@ -1,0 +1,131 @@
+.navbar-custom{
+    background: linear-gradient(135deg, #32d1ac 0%, #4a90e2 100%);
+    border: none;
+    margin-bottom: 0;
+}
+
+.outer-frame{
+    position: relative;
+    top: 50px;
+    min-height: 600px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.inner-frame{
+    max-width: 950px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.main-frame{
+    background-color: rgba(0,102,51,0.3);
+    border-radius: 3px;
+}
+
+.frame-left{
+    padding: 30px 0px 100px 0px;
+}
+
+.setting-left{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding:15px 10px 15px 20px;
+}
+
+.frame-middle{
+    padding-top: 20px;
+}
+
+.white-box{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    min-height: 100px;
+    padding-top: 20px;
+}
+
+.frame-right{
+    padding-top: 20px;
+}
+
+.user-info{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    min-height: 150px;
+}
+
+.user-bg{
+    background-image: url("/images/userbg.jpg");
+    background-size: cover;
+    border-radius: 2px;
+    height: 60px;
+}
+
+.img-div{
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+
+.user-img{
+     max-width: 55px;
+     max-height: 55px;
+     border-radius: 60px;
+     border: #eee 2px solid;
+ }
+
+.user-name{
+    position: relative;
+    top: -25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    /*font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;*/
+    font-family: Lato,"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif;
+    line-height: 1.6;
+    letter-spacing: .01rem;
+    color: black;
+}
+
+/*******************chart*********************/
+.chart-box{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.title-box{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+
+    padding: 10px 0 10px 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+
+.well-cus{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.basic-info{
+    text-align: center;
+    color: #2b542c;
+}
+
+.post-btn {
+    background-color: #bd9eff;
+    width: 50%!important;
+}
+
+
+

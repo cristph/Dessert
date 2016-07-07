@@ -1,12 +1,13 @@
 # Dessert
-a java web project which features DataWarehouse &amp; DataMining
+a java web project which features **DataWarehouse** &amp; **DataMining**
 
-Data Warehouse
-buid with database-**infobright ICE**
-OLAP engine-**Mondrian**
+<h3>Data Warehouse</h3>
+buid with database —— **infobright ICE**</br>
+OLAP engine —— **Mondrian**
+OLAP presentation —— **Wijmo**
 
-Data Mining
-work with data mining engine-**Weka**
+<h3>Data Mining</br>
+work with data mining engine —— **Weka**
 
-Frame
+<br>Frame</br>
 **Spring + Spring MVC + Hibernate + Shrio**

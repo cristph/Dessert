@@ -57,5 +57,6 @@ web/wcf/*
 web/jpivot/*
 web/dependents/*
 web/html/*
+web/images/*
 web/WEB-INF/wcf/*
 web/WEB-INF/jpivot/*

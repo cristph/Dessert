@@ -11,4 +11,4 @@ OLAP presentation —— **Wijmo**
 work with data mining engine —— **Weka**
 
 <h3>Frame</h3>
-**Spring + Spring MVC + Hibernate + Shrio**
+**Spring + Spring MVC + Hibernate + Shiro**

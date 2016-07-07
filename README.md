@@ -1,5 +1,6 @@
 # Dessert
-a java web project which features **DataWarehouse** &amp; **DataMining**
+a java web project with regard to Dessert Sale(OLTP) and ESS(OLAP)</br>
+which features **DataWarehouse** &amp; **DataMining**
 
 <h3>Data Warehouse</h3>
 buid with database —— **infobright ICE**</br>
